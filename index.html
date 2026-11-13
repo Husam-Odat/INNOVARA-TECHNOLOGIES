@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101827">
+<meta name="description" content="Innovara Technologies helps startups and growing businesses turn ideas into reliable digital products through software engineering, cloud solutions and AI integration.">
+<title>Innovara Technologies | Innovation Into Impact</title>
+<style>
+:root{--navy:#101827;--navy2:#17243a;--ink:#182235;--muted:#667085;--line:#e7eaf0;--gold:#c9a66b;--blue:#6479ff;--paper:#f7f8fb;--white:#fff;--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit;text-decoration:none}.container{width:min(1160px,calc(100% - 44px));margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(16,24,39,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.1)}
+.nav{height:78px;display:flex;align-items:center;justify-content:space-between;color:#fff}.brand{display:flex;align-items:center;gap:12px;font-weight:800;letter-spacing:.13em}.mark{width:39px;height:39px;border:1px solid var(--gold);border-radius:12px;display:grid;place-items:center;color:var(--gold);font-weight:800;font-size:20px;letter-spacing:0}.brand small{display:block;font-size:9px;color:#c9d1df;letter-spacing:.27em;margin-top:-4px}.links{display:flex;gap:28px;font-size:13px;color:#d9dfeb}.links a:hover{color:var(--gold)}.nav-cta{padding:10px 17px;border:1px solid rgba(201,166,107,.75);border-radius:999px;color:#fff;font-size:13px}
+.hero{background:radial-gradient(ellipse at 80% 15%,rgba(100,121,255,.22),transparent 35%),radial-gradient(ellipse at 12% 90%,rgba(201,166,107,.14),transparent 35%),var(--navy);color:#fff;overflow:hidden;position:relative}.hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:54px 54px;mask-image:linear-gradient(to bottom,black,transparent 90%);pointer-events:none}.hero-inner{position:relative;z-index:1;padding:112px 0 105px;display:grid;grid-template-columns:1.15fr .85fr;gap:55px;align-items:center}.eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.2em;font-size:11px;font-weight:800}.hero h1{font-size:clamp(42px,6vw,72px);line-height:1.05;letter-spacing:-.045em;margin:18px 0 22px;max-width:740px}.hero h1 span{color:var(--gold)}.hero p{color:#c8d0df;font-size:18px;max-width:620px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:32px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:14px 22px;border-radius:999px;font-weight:700;font-size:14px}.primary{background:var(--gold);color:#172033}.secondary{border:1px solid rgba(255,255,255,.28);color:#fff}.hero-card{border:1px solid rgba(255,255,255,.16);border-radius:28px;padding:28px;background:linear-gradient(145deg,rgba(255,255,255,.1),rgba(255,255,255,.025));box-shadow:0 28px 80px rgba(0,0,0,.25)}.orbit{height:260px;display:grid;place-items:center;position:relative}.orb{width:178px;height:178px;border:1px solid rgba(201,166,107,.8);border-radius:50%;display:grid;place-items:center;box-shadow:0 0 70px rgba(100,121,255,.22),inset 0 0 40px rgba(201,166,107,.08);font-size:45px;font-weight:800;color:var(--gold);letter-spacing:-.08em}.orbit:before,.orbit:after{content:"";position:absolute;width:245px;height:95px;border:1px solid rgba(100,121,255,.6);border-radius:50%;transform:rotate(-28deg)}.orbit:after{transform:rotate(55deg);border-color:rgba(201,166,107,.4)}.hero-card .mini{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.mini div{border-top:1px solid rgba(255,255,255,.18);padding-top:13px;color:#dce2ed;font-size:11px}.mini b{display:block;color:#fff;font-size:15px;margin-bottom:3px}
+section{padding:88px 0}.section-kicker{color:#8b6b35;text-transform:uppercase;letter-spacing:.18em;font-weight:800;font-size:11px}.section-title{font-size:clamp(30px,4vw,46px);line-height:1.15;letter-spacing:-.035em;margin:12px 0 15px}.lead{font-size:17px;color:var(--muted);max-width:760px}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:start}.about-note{background:var(--paper);border:1px solid var(--line);padding:30px;border-radius:var(--radius)}.about-note strong{color:#8b6b35}.pill-row{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.pill{font-size:12px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;color:#475467;background:#fff}
+.services{background:var(--paper)}.section-head{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:34px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:#fff;border:1px solid var(--line);border-radius:19px;padding:25px;min-height:235px;transition:.2s}.card:hover{transform:translateY(-4px);box-shadow:0 15px 35px rgba(16,24,39,.07)}.icon{width:43px;height:43px;border-radius:13px;background:#f1efff;color:#4f46e5;display:grid;place-items:center;font-weight:800;font-size:18px}.card h3{font-size:18px;margin:18px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0}.card ul{padding-left:18px;color:#667085;font-size:13px;margin:13px 0 0}
+.work-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.work{border:1px solid var(--line);border-radius:20px;overflow:hidden}.work-top{height:145px;background:linear-gradient(135deg,#182947,#394c78);display:flex;align-items:end;padding:22px;color:white;position:relative}.work:nth-child(2) .work-top{background:linear-gradient(135deg,#124b55,#2d8790)}.work:nth-child(3) .work-top{background:linear-gradient(135deg,#4a294d,#a16b86)}.work:nth-child(4) .work-top{background:linear-gradient(135deg,#283044,#65748b)}.work-top span{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#e7d2a9}.work-body{padding:22px}.work-body h3{margin:0 0 7px}.work-body p{margin:0;color:var(--muted);font-size:14px}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}.tags span{font-size:11px;background:#f2f4f7;padding:5px 9px;border-radius:999px;color:#475467}.note{font-size:12px;color:#7b8494;margin-top:18px}
+.process{background:var(--navy);color:#fff}.process .lead{color:#bfc8d8}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:36px}.step{border-top:1px solid rgba(255,255,255,.2);padding-top:18px}.step b{color:var(--gold);font-size:12px;letter-spacing:.12em}.step h3{font-size:17px;margin:10px 0 6px}.step p{font-size:13px;color:#bfc8d8;margin:0}
+.stack{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.stack span{padding:10px 14px;border-radius:10px;background:#f7f8fb;border:1px solid var(--line);font-size:13px;font-weight:650;color:#344054}
+.contact{background:#f7f8fb}.contact-box{background:var(--navy);color:#fff;border-radius:26px;padding:45px;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.contact-box p{color:#c8d0df;max-width:650px}.contact-links{display:flex;flex-direction:column;gap:12px;font-size:14px}.contact-links a{color:#f0d7a8}
+footer{background:#0b1220;color:#aeb8c8;padding:28px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:850px){.hero-inner,.about-grid{grid-template-columns:1fr}.hero-inner{padding:82px 0}.hero-card{max-width:520px}.cards{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:repeat(2,1fr)}.contact-box{grid-template-columns:1fr}.links{gap:14px}}
+@media(max-width:600px){.container{width:min(100% - 30px,1160px)}.nav{height:68px}.links{display:none}.hero h1{font-size:43px}.hero p{font-size:16px}.hero-card{padding:17px}.orbit{height:220px}.cards,.work-grid,.steps{grid-template-columns:1fr}.section-head{display:block}section{padding:66px 0}.contact-box{padding:28px}.foot{display:block}.foot span{display:block;margin-top:8px}}
+</style>
+</head>
+<body>
+<header>
+ <div class="container nav">
+  <a class="brand" href="#home"><span class="mark">I</span><span>INNOVARA<small>TECHNOLOGIES</small></span></a>
+  <nav class="links"><a href="#about">About</a><a href="#services">Services</a><a href="#work">Portfolio</a><a href="#approach">Approach</a></nav>
+  <a class="nav-cta" href="#contact">Start a project ↗</a>
+ </div>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="container hero-inner">
+  <div>
+   <div class="eyebrow">Software · Cloud · Intelligent Solutions</div>
+   <h1>Innovation <span>Into Impact.</span></h1>
+   <p>We help startups and growing businesses turn ideas into dependable digital products — through thoughtful software engineering, cloud technologies and practical AI integration.</p>
+   <div class="actions"><a class="btn primary" href="#contact">Discuss a project ↗</a><a class="btn secondary" href="#services">Explore our services</a></div>
+  </div>
+  <div class="hero-card">
+   <div class="orbit"><div class="orb">I.</div></div>
+   <div class="mini"><div><b>Build</b>Digital products</div><div><b>Connect</b>Systems & data</div><div><b>Scale</b>With confidence</div></div>
+  </div>
+ </div>
+</section>
+<section id="about">
+ <div class="container about-grid">
+  <div><div class="section-kicker">Who we are</div><h2 class="section-title">Technology built around real business needs.</h2><p class="lead">Innovara Technologies is a software and digital solutions brand focused on helping businesses plan, build and improve the technology behind their next stage of growth.</p></div>
+  <div class="about-note"><p>We bring together <strong>backend engineering, full-stack development, API integration, database design and cloud technologies</strong> to create practical, maintainable solutions.</p><p>Our approach is collaborative and product-minded: understand the challenge, choose the right technology, deliver with care, and keep improving.</p><div class="pill-row"><span class="pill">Startup-focused</span><span class="pill">Engineering-led</span><span class="pill">Scalable by design</span><span class="pill">Business-oriented</span></div></div>
+ </div>
+</section>
+<section class="services" id="services">
+ <div class="container">
+  <div class="section-head"><div><div class="section-kicker">What we do</div><h2 class="section-title">Solutions for every stage of growth.</h2><p class="lead">From an initial product build to connecting and improving existing systems.</p></div></div>
+  <div class="cards">
+   <article class="card"><div class="icon">01</div><h3>Custom Software Development</h3><p>Purpose-built web applications and backend systems designed around your workflows.</p><ul><li>Laravel & PHP development</li><li>Business applications and portals</li><li>Custom backend architecture</li></ul></article>
+   <article class="card"><div class="icon">02</div><h3>Web & SaaS Products</h3><p>Responsive digital products that bring customers, teams and services together.</p><ul><li>Full-stack applications</li><li>Admin dashboards</li><li>MVP and product development</li></ul></article>
+   <article class="card"><div class="icon">03</div><h3>API & Systems Integration</h3><p>Connect platforms and services to make information and business processes flow.</p><ul><li>REST API design and integration</li><li>Payment and third-party services</li><li>Authentication and access control</li></ul></article>
+   <article class="card"><div class="icon">04</div><h3>Cloud & DevOps</h3><p>Deployment foundations and operational tooling to support reliable applications.</p><ul><li>AWS cloud implementation</li><li>Docker and Linux environments</li><li>Monitoring, queues and caching</li></ul></article>
+   <article class="card"><div class="icon">05</div><h3>AI Integration & Automation</h3><p>Explore practical AI capabilities and automate repetitive workflows within digital products.</p><ul><li>AI service/API integration</li><li>Workflow automation concepts</li><li>AI-assisted business tools</li></ul></article>
+   <article class="card"><div class="icon">06</div><h3>Technology Consulting</h3><p>Make informed product and engineering decisions with clear technical direction.</p><ul><li>Technical discovery and planning</li><li>Architecture and modernization</li><li>Performance improvement</li></ul></article>
+  </div>
+ </div>
+</section>
+<section id="work">
+ <div class="container">
+  <div class="section-kicker">Selected experience</div><h2 class="section-title">Products and systems we've worked on.</h2><p class="lead">Examples drawn from the founder's development experience and project portfolio.</p>
+  <div class="work-grid" style="margin-top:32px">
+   <article class="work"><div class="work-top"><span>Health technology · 01</span></div><div class="work-body"><h3>Istishartak</h3><p>Healthcare platform experience supporting patient-doctor interactions, appointment booking, medical summaries and doctor scheduling workflows.</p><div class="tags"><span>Laravel</span><span>PHP</span><span>MySQL</span><span>REST API</span></div><p class="note"><a href="https://istishartak.com/" target="_blank" rel="noopener">Visit project ↗</a></p></div></article>
+   <article class="work"><div class="work-top"><span>Digital healthcare · 02</span></div><div class="work-body"><h3>Seha</h3><p>Healthcare booking platform experience helping patients explore doctor profiles and request appointments across hospitals.</p><div class="tags"><span>Laravel</span><span>PHP</span><span>JavaScript</span><span>MySQL</span></div><p class="note"><a href="https://www.seha.ae/" target="_blank" rel="noopener">Visit project ↗</a></p></div></article>
+   <article class="work"><div class="work-top"><span>E-commerce · 03</span></div><div class="work-body"><h3>Designoo</h3><p>E-commerce project created for artwork and handmade craft products, with a focus on product presentation and online shopping.</p><div class="tags"><span>Laravel</span><span>PHP</span><span>AJAX</span><span>MySQL</span></div><p class="note"><a href="https://github.com/Husam-Odat/backend-masterpiece" target="_blank" rel="noopener">View code portfolio ↗</a></p></div></article>
+   <article class="work"><div class="work-top"><span>Backend engineering · 04</span></div><div class="work-body"><h3>Cloud-enabled backend systems</h3><p>Freelance engineering experience with queue processing, Redis caching, authentication, event-driven workflows, serverless tasks and application monitoring.</p><div class="tags"><span>Redis</span><span>AWS Lambda</span><span>CloudWatch</span><span>Laravel</span></div></div></article>
+  </div>
+  <p class="note">Project references reflect experience described by the founder. They are not represented as products owned by Innovara Technologies. Confirm permission to display client or employer project names and links before publishing.</p>
+ </div>
+</section>
+<section class="process" id="approach">
+ <div class="container"><div class="section-kicker">How we work</div><h2 class="section-title">A clear path from idea to delivery.</h2><p class="lead">A collaborative process that keeps the business objective and the end user in focus.</p>
+  <div class="steps"><div class="step"><b>01 / DISCOVER</b><h3>Understand the challenge</h3><p>Clarify goals, users, requirements and constraints.</p></div><div class="step"><b>02 / DESIGN</b><h3>Plan the solution</h3><p>Shape the product scope, architecture and delivery plan.</p></div><div class="step"><b>03 / BUILD</b><h3>Engineer and integrate</h3><p>Develop, test and connect the components that matter.</p></div><div class="step"><b>04 / IMPROVE</b><h3>Support and scale</h3><p>Monitor, refine and evolve the product as needs grow.</p></div></div>
+ </div>
+</section>
+<section>
+ <div class="container"><div class="section-kicker">Our technology</div><h2 class="section-title">The right tools for the job.</h2><p class="lead">A practical engineering toolkit across application development, infrastructure and integration.</p><div class="stack"><span>PHP</span><span>Laravel</span><span>Yii2</span><span>REST APIs</span><span>MySQL</span><span>JavaScript</span><span>Vue.js</span><span>React</span><span>AWS</span><span>Docker</span><span>Linux</span><span>Redis</span><span>Git</span><span>CloudWatch</span></div></div>
+</section>
+<section class="contact" id="contact">
+ <div class="container"><div class="contact-box"><div><div class="section-kicker">Let's build what's next</div><h2 class="section-title">Have a challenge worth solving?</h2><p>Tell us what you're building, what needs improving, or where technology could help your business move forward.</p><a class="btn primary" href="mailto:husamaldean.odat@gmail.com?subject=Project%20inquiry%20-%20Innovara%20Technologies">Start a conversation ↗</a></div><div class="contact-links"><a href="mailto:husamaldean.odat@gmail.com">husamaldean.odat@gmail.com</a><a href="tel:+962789776587">+962 7 8977 6587</a><span>Amman, Jordan</span><a href="https://www.linkedin.com/in/husam-al-odat/" target="_blank" rel="noopener">Founder on LinkedIn ↗</a></div></div></div>
+</section>
+</main>
+<footer><div class="container foot"><strong style="color:#fff;letter-spacing:.12em">INNOVARA TECHNOLOGIES</strong><span>Innovation Into Impact.</span><span>© <span id="year"></span> Innovara Technologies. All rights reserved.</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
